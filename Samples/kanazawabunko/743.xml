@@ -45,11 +45,10 @@
     </teiHeader>
     <text>
         <body>
-            <pb corresp="#p1" facs="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/f1ea649f716e36e91df56eb68ca5fea1267c8fde.jpg" n="1"/>
             <lb corresp="#line1"/>
             <ab type="jiage2-2">
                 <!-- type="taito2-1" -->
-                <pb corresp="#p1" n="p1"/>
+                <pb corresp="#p1" facs="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/f1ea649f716e36e91df56eb68ca5fea1267c8fde.jpg" n="p1"/>
  一、                <date>去月十九日</date> 夜、                <placeName corresp="#玉縄藩" key="相模国">甘縄</placeName> の                <persName corresp="#安達時顕" key="延明・安達時顕">城入道</persName> の地の南頬に                <persName> いな                    <lb corresp="#line2"/>
                     <space quantity="2"/>
  かき左衛門入道 </persName> 宿所の候より炎上出来候て、其辺                <lb/>
@@ -71,6 +70,7 @@
                 <time>亥刻</time> 計ニ、                <placeName corresp="#扇ヶ谷" key="相模国">扇谷</placeName> の                <persName key="大仏">右馬権助家時</persName> 門前                <lb/>
                 <space quantity="2"/>
  より火いてき </ab>
+            <pb corresp="#p2" facs="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/4aa6f3e8828406752efdf8cc7c8d124f79e12ce1.jpg" n="p2"/>
         </body>
     </text>
     <facsimile sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/manifest">
@@ -80,6 +80,8 @@
             <zone xml:id="line2" lry="1316" lrx="2028" uly="284" ulx="1932"/>
             <zone xml:id="zone_qqp_hk3_zdc" points="244,1004 172,1024 180,1116 180,1196 192,1328 176,1364 312,1356 304,1236 340,1148 336,1096 300,1072" />
         </surface>
-        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p2" xml:id="p2"/>
+        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p2" xml:id="p2">
+            <graphic url="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/4aa6f3e8828406752efdf8cc7c8d124f79e12ce1.jpg"/>
+        </surface>
     </facsimile>
 </TEI>
