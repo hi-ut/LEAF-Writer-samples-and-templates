@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -14,8 +14,7 @@
                 <listPerson>
                     <person xml:id="安達時顕">
                         <persName>安達時顕</persName>
-                        <note type="schema:url"
-                            >https://ja.wikipedia.org/wiki/%E5%AE%89%E9%81%94%E6%99%82%E9%A1%95</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E5%AE%89%E9%81%94%E6%99%82%E9%A1%95</note>
                     </person>
                     <person xml:id="北条時益">
                         <persName>北条時益</persName>
@@ -31,16 +30,14 @@
                         <location>
                             <geo>35.350972, 139.514556</geo>
                         </location>
-                        <note type="schema:url"
-                            >https://kotobank.jp/word/%E7%94%98%E7%B8%84%E8%97%A9-27187</note>
+                        <note type="schema:url">https://kotobank.jp/word/%E7%94%98%E7%B8%84%E8%97%A9-27187</note>
                     </place>
                     <place xml:id="扇ヶ谷">
                         <placeName>扇ヶ谷</placeName>
                         <location>
                             <geo>35.32565, 139.549481</geo>
                         </location>
-                        <note type="schema:url"
-                            >https://ja.wikipedia.org/wiki/%E6%89%87%E3%83%B6%E8%B0%B7</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E6%89%87%E3%83%B6%E8%B0%B7</note>
                     </place>
                 </listPlace>
             </sourceDesc>
@@ -48,42 +45,41 @@
     </teiHeader>
     <text>
         <body>
+            <pb corresp="#p1" facs="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/f1ea649f716e36e91df56eb68ca5fea1267c8fde.jpg" n="1"/>
             <lb corresp="#line1"/>
             <ab type="jiage2-2">
                 <!-- type="taito2-1" -->
-                <pb corresp="#p1" n="p1"/> 一、 <date>去月十九日</date> 夜、 <placeName corresp="#玉縄藩"
-                    key="相模国">甘縄</placeName> の <persName corresp="#安達時顕" key="延明・安達時顕"
-                    >城入道</persName> の地の南頬に <persName> いな <lb corresp="#line2"/>
-                    <space quantity="2"/> かき左衛門入道 </persName> 宿所の候より炎上出来候て、其辺 <lb/>
-                <space quantity="2"/> やけ候ぬ、南者 <persName corresp="#北条時益" key="北条">越後大夫将監時益</persName>
-                北まてと承候、 <lb/>
-                <space quantity="2"/> 彼家人 <persName corresp="#糟屋孫三郎入道" key="道暁・長義"
-                    >糟屋孫三郎入道</persName> 以下数輩焼失候、北者 <lb/>
+                <pb corresp="#p1" n="p1"/>
+ 一、                <date>去月十九日</date> 夜、                <placeName corresp="#玉縄藩" key="相模国">甘縄</placeName> の                <persName corresp="#安達時顕" key="延明・安達時顕">城入道</persName> の地の南頬に                <persName> いな                    <lb corresp="#line2"/>
+                    <space quantity="2"/>
+ かき左衛門入道 </persName> 宿所の候より炎上出来候て、其辺                <lb/>
                 <space quantity="2"/>
-                <persName corresp="#安達時顕">城入道</persName> 宿所を立られ候はむとて、人を悉被 <lb/>
-                <space quantity="2"/> 立候程に、そのあきにてとゝまり候ぬ、南風にて <lb/>
-                <space quantity="2"/> 候しほとに、此辺も仰天候き、 <placeName corresp="#玉縄藩" key="甘縄"
-                    >北斗堂</placeName> 計 <lb/>
-                <space quantity="2"/> のかれて候之由承候、目出候、々々々、 <lb/>
+ やけ候ぬ、南者                <persName corresp="#北条時益" key="北条">越後大夫将監時益</persName>
+                北まてと承候、                <lb/>
+                <space quantity="2"/>
+ 彼家人                <persName corresp="#糟屋孫三郎入道" key="道暁・長義">糟屋孫三郎入道</persName> 以下数輩焼失候、北者                <lb/>
+                <space quantity="2"/>
+                <persName corresp="#安達時顕">城入道</persName> 宿所を立られ候はむとて、人を悉被                <lb/>
+                <space quantity="2"/>
+ 立候程に、そのあきにてとゝまり候ぬ、南風にて                <lb/>
+                <space quantity="2"/>
+ 候しほとに、此辺も仰天候き、                <placeName corresp="#玉縄藩" key="甘縄">北斗堂</placeName> 計                <lb/>
+                <space quantity="2"/>
+ のかれて候之由承候、目出候、々々々、                <lb/>
             </ab>
-            <ab type="jiage2-2"> 一、 <date>去夜</date>
-                <time>亥刻</time> 計ニ、 <placeName corresp="#扇ヶ谷" key="相模国">扇谷</placeName> の <persName
-                    key="大仏">右馬権助家時</persName> 門前 <lb/>
-                <space quantity="2"/> より火いてき </ab>
+            <ab type="jiage2-2"> 一、                <date>去夜</date>
+                <time>亥刻</time> 計ニ、                <placeName corresp="#扇ヶ谷" key="相模国">扇谷</placeName> の                <persName key="大仏">右馬権助家時</persName> 門前                <lb/>
+                <space quantity="2"/>
+ より火いてき </ab>
         </body>
     </text>
     <facsimile sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/manifest">
-        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p1"
-            xml:id="p1">
-            <graphic
-                url="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/f1ea649f716e36e91df56eb68ca5fea1267c8fde.jpg"/>
+        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p1" xml:id="p1">
+            <graphic url="https://kanazawabunko-db.pen-kanagawa.ed.jp/files/original/f1ea649f716e36e91df56eb68ca5fea1267c8fde.jpg"/>
             <zone xml:id="line1" lry="1320" lrx="2104" uly="188" ulx="2036"/>
             <zone xml:id="line2" lry="1316" lrx="2028" uly="284" ulx="1932"/>
-            <zone xml:id="zone_qqp_hk3_zdc"
-                points="244,1004 172,1024 180,1116 180,1196 192,1328 176,1364 312,1356 304,1236 340,1148 336,1096 300,1072"
-            />
+            <zone xml:id="zone_qqp_hk3_zdc" points="244,1004 172,1024 180,1116 180,1196 192,1328 176,1364 312,1356 304,1236 340,1148 336,1096 300,1072" />
         </surface>
-        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p2"
-            xml:id="p2"/>
+        <surface sameAs="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/372/canvas/p2" xml:id="p2"/>
     </facsimile>
 </TEI>
